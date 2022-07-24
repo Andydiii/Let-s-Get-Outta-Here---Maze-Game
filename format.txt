@@ -1,0 +1,31 @@
+A maze is made up of 4 different characters (5 including newlines)
+
+'X' - A Wall
+' ' - A passage
+'S' - The start point
+'X' - An exit
+
+In a valid maze:
+
+* Each line will have the same number of characters (the width of the maze)
+* Each line will end with a newline character (if that matters)
+* Start and exit tiles will have a wall beside them
+* The maze is surrounded by wall and exit tiles
+  * In other words, the only gaps in the OUTER wall are exits.
+  * This means it is not possible to leave the bounds of the maze without
+    hitting an exit
+  * This does NOT mean the outer wall is a rectangle!
+
+The following is a valid maze:
+
+XXXXX
+X  SX
+XX XX
+ X X 
+ X X 
+ X X 
+ XEX 
+
+UPDATE: Note that you can assume each line has the same number of characters, so
+the bottom 4 lines where the maze "narrows" will have a trailing space before
+the newline.
