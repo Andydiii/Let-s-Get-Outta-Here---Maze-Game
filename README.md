@@ -1,1 +1,2 @@
-# Let-s-Get-Outta-Here---Maze-Game
+# Let's Get Outta Here!
+
